@@ -1,0 +1,70 @@
+*{
+    font-family: 'Pacifico', cursive;
+}
+.head {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color:#fff;
+    color: #666;
+    padding: 7px 0px 7px 0px;
+  }
+  .head > div:nth-child(2){
+      text-align: center;
+  }
+  .head > div:nth-child(3){
+      text-align: right;
+  }
+  .days > ul{
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      list-style-type: none;
+      text-align: center;
+      padding-left: 0;
+  }
+  .week > ul{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    padding-left: 0;
+
+}
+
+.week > ul:nth-child(6){
+    border-bottom: 1px solid #ccc;
+}
+.week > ul > li{
+    border-right: 1px solid #ccc;
+    padding: 15px;
+}
+.week > ul > li:hover{
+    box-shadow: 2px 2px 2px #bbb;
+}
+.week > ul > li:nth-child(1){
+    background-color: #eee;
+}
+.week > ul > li:nth-child(1):hover{
+    box-shadow: 2px 2px 2px #aaa;
+    
+}
+.week > ul > li:nth-child(7){
+    background-color: #eee;
+    border-right: none;
+}
+.week > ul > li:nth-child(7):hover{
+    box-shadow: 2px 2px 2px #aaa;
+    
+}
+
+
+  
+  
+  /* custom css */
+  .circular-border{
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 0px 25px 0px 25px;
+    font-size: 20px;
+  }
