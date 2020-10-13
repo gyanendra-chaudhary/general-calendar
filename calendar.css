@@ -32,35 +32,30 @@
 
 }
 
-.week > ul:nth-child(6){
-    border-bottom: 1px solid #ccc;
-}
 .week > ul > li{
-    border-right: 1px solid #ccc;
+    border: 1px solid rgba(200,200,200, 0.5);
     padding: 15px;
 }
 .week > ul > li:hover{
-    box-shadow: 2px 2px 2px #bbb;
-}
-.week > ul > li:nth-child(1){
-    background-color: #eee;
-}
-.week > ul > li:nth-child(1):hover{
-    box-shadow: 2px 2px 2px #aaa;
-    
-}
-.week > ul > li:nth-child(7){
-    background-color: #eee;
-    border-right: none;
-}
-.week > ul > li:nth-child(7):hover{
-    box-shadow: 2px 2px 2px #aaa;
-    
+    box-shadow: 2px 2px 2px #000;
 }
 
 
-  
-  
+.prevDate{
+    background-color: rgba(200,200,200, 0.5);
+    color: rgba(150,150,150, 0.9);
+
+}
+.today{
+    background-color: rgba(50,50,150, 0.9);
+    color: white;
+}
+.next-date{
+    background-color: rgba(200,200,200, 0.5);
+    color: rgba(150,150,150, 0.9);
+
+}
+
   /* custom css */
   .circular-border{
     border: 1px solid #ccc;
