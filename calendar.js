@@ -125,7 +125,11 @@ var z = new Date().getMonth();
 
 function prev() {
   actMonth = actMonth - 1;
-  actMonth = actMonth % 12;
+  // actMonth = Math.abs(actMonth);
+  if(actMonth<0){
+    actMonth=11;
+
+  }
   if (actMonth === z) {
     document.querySelector("#date1").innerText = "Today";
   } else {
